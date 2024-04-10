@@ -3,6 +3,17 @@
     <style name="Base.Theme.Stubee" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#925100</item>
+        <item name="colorPrimaryVariant">#C46C00</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Customize your light theme here. -->
+        <item name="colorSecondary">#C82D18</item>
+        <item name="colorSecondaryVariant">#9F1031</item>
+        <item name="colorOnSecondary">#3B0AAD</item>
+        <!-- Customize your light theme here. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">#B07F02</item>
+
     </style>
 
     <style name="Theme.Stubee" parent="Base.Theme.Stubee" />

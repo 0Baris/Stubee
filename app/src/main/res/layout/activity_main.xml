@@ -8,45 +8,40 @@
     app:layout_constraintCircleRadius="15dp"
     tools:context=".MainActivity">
 
-    <Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#DC9E00"
-        android:navigationIcon="@drawable/anasayfa_renk"
-        android:title="@string/app_name"
-        app:circularflow_defaultRadius="15dp"
-        app:circularflow_radiusInDP="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </Toolbar>
+        android:background="#C46C00"
+        app:navigationIcon="@drawable/anasayfa_renk"
+        app:titleTextColor="@color/white"
+        app:title="@string/app_name"
+        tools:titleTextAppearance="@style/TextAppearance.AppCompat.Large">
+    </androidx.appcompat.widget.Toolbar>
 
     <FrameLayout
         android:id="@+id/framelayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/altnavi"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        app:layout_constraintBottom_toTopOf="@id/altnavi"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:layout_editor_absoluteX="0dp" />
 
     <me.ibrahimsn.lib.SmoothBottomBar
         android:id="@+id/altnavi"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="60dp"
-        app:backgroundColor="#DD9F00"
+        android:fadingEdge="vertical"
+        app:backgroundColor="#C46C00"
         app:cornerRadius="10dp"
-        app:corners="all"
-        app:indicatorColor="#B17F02"
-        app:indicatorRadius="10dp"
+        app:corners="top_right|top_left"
+        app:indicatorColor="#925100"
+        app:indicatorRadius="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/altnavigasyon" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

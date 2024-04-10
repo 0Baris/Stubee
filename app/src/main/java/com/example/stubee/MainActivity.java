@@ -1,14 +1,14 @@
 package com.example.stubee;
 
+import android.graphics.Color;
 import android.os.Bundle;
-import android.widget.Toolbar;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -18,6 +18,7 @@ import me.ibrahimsn.lib.SmoothBottomBar;
 public class MainActivity extends AppCompatActivity {
 
     SmoothBottomBar smoothBottomBar;
+
     Toolbar toolbar;
 
     @Override
@@ -38,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.framelayout, new AnasayfaFragment());
         fragmentTransaction.commit();
+        getWindow().setNavigationBarColor(Color.parseColor("#C46C00"));
+        getWindow().setStatusBarColor(Color.parseColor("#C46C00"));
+        toolbar.setTitle("Ana Sayfa");
 
         smoothBottomBar.setOnItemSelectedListener(new OnItemSelectedListener() {
             @Override
@@ -50,6 +54,10 @@ public class MainActivity extends AppCompatActivity {
                     fragmentTransaction.replace(R.id.framelayout, new AnasayfaFragment());
                     fragmentTransaction.commit();
 
+                    toolbar.setTitle("Ana Sayfa");
+                    toolbar.setNavigationIcon(R.drawable.anasayfa_renk);
+
+
                 }
                 else if (i==1){
 
@@ -57,6 +65,9 @@ public class MainActivity extends AppCompatActivity {
                     FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                     fragmentTransaction.replace(R.id.framelayout, new PomodroFragment());
                     fragmentTransaction.commit();
+
+                    toolbar.setTitle("Pomodro");
+                    toolbar.setNavigationIcon(R.drawable.pomodro_renk);
 
                 }
                 else if (i==2){
@@ -66,6 +77,9 @@ public class MainActivity extends AppCompatActivity {
                     fragmentTransaction.replace(R.id.framelayout, new NotlarFragment());
                     fragmentTransaction.commit();
 
+                    toolbar.setTitle("Notlar");
+                    toolbar.setNavigationIcon(R.drawable.sorutakip_renk);
+
                 }
                 else if (i==3){
 
@@ -74,6 +88,8 @@ public class MainActivity extends AppCompatActivity {
                     fragmentTransaction.replace(R.id.framelayout, new TakvimFragment());
                     fragmentTransaction.commit();
 
+                    toolbar.setTitle("Takvim");
+                    toolbar.setNavigationIcon(R.drawable.takvim_renk);
                 }
 
 
