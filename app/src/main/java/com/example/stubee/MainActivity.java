@@ -2,6 +2,7 @@ package com.example.stubee;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +12,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+
+import java.nio.file.NotLinkException;
 
 import me.ibrahimsn.lib.OnItemSelectedListener;
 import me.ibrahimsn.lib.SmoothBottomBar;
@@ -34,13 +37,15 @@ public class MainActivity extends AppCompatActivity {
         smoothBottomBar = findViewById(R.id.altnavi);
         toolbar = findViewById(R.id.toolbar);
 
+        getWindow().setNavigationBarColor(Color.parseColor("#C46C00"));
+        getWindow().setStatusBarColor(Color.parseColor("#C46C00"));
+        toolbar.setTitle("Ana Sayfa");
+
+
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.framelayout, new AnasayfaFragment());
         fragmentTransaction.commit();
-        getWindow().setNavigationBarColor(Color.parseColor("#C46C00"));
-        getWindow().setStatusBarColor(Color.parseColor("#C46C00"));
-        toolbar.setTitle("Ana Sayfa");
 
         smoothBottomBar.setOnItemSelectedListener(new OnItemSelectedListener() {
             @Override
@@ -91,12 +96,8 @@ public class MainActivity extends AppCompatActivity {
                     toolbar.setNavigationIcon(R.drawable.takvim_renk);
                 }
 
-
-
                 return false;
             }
         });
-
-
     }
 }

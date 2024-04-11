@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".PomodroFragment">
 
+
+
     <RelativeLayout
         android:id="@+id/pomodro_sekme"
         android:layout_width="match_parent"
@@ -24,10 +26,10 @@
             android:layout_height="400dp"
             android:layout_centerHorizontal="true"
             android:background="@drawable/circle_erkek">
-
         </ImageView>
 
         <TextView
+            android:id="@+id/suretext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -39,6 +41,31 @@
             >
 
         </TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="#E8981E"
+            android:id="@+id/pbaslat"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="400dp"
+            android:layout_marginHorizontal="80dp"
+            android:text="Başlat"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="#E8981E"
+            android:id="@+id/resetlebutton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="400dp"
+            android:layout_marginHorizontal="220dp"
+            android:text="Resetle"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
 
     </RelativeLayout>
 

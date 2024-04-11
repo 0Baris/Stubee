@@ -39,4 +39,5 @@ dependencies {
     androidTestImplementation libs.espresso.core
     implementation 'com.github.ibrahimsn98:SmoothBottomBar:1.7.9'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'
+
 }
