@@ -8,24 +8,34 @@
     app:layout_constraintCircleRadius="15dp"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#C46C00"
-        app:navigationIcon="@drawable/anasayfa_renk"
-        app:titleTextColor="@color/white"
-        app:title="@string/app_name"
-        tools:titleTextAppearance="@style/TextAppearance.AppCompat.Large">
-    </androidx.appcompat.widget.Toolbar>
 
-    <FrameLayout
+    <RelativeLayout
         android:id="@+id/framelayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@id/altnavi"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        tools:layout_editor_absoluteX="0dp" />
+        android:layout_marginTop="120dp"
+        android:background="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="0dp">
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#C46C00"
+        app:layout_constraintEnd_toEndOf="@id/framelayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/anasayfa_renk"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/white"
+        tools:titleTextAppearance="@style/TextAppearance.AppCompat.Large">
+
+    </androidx.appcompat.widget.Toolbar>
 
     <me.ibrahimsn.lib.SmoothBottomBar
         android:id="@+id/altnavi"

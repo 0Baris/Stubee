@@ -18,7 +18,6 @@ import me.ibrahimsn.lib.SmoothBottomBar;
 public class MainActivity extends AppCompatActivity {
 
     SmoothBottomBar smoothBottomBar;
-
     Toolbar toolbar;
 
     @Override
