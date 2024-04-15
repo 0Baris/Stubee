@@ -39,6 +39,8 @@ public class PomodroFragment extends Fragment {
             }
         });
 
+
+
         resetle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -72,39 +74,73 @@ public class PomodroFragment extends Fragment {
                     Toast.makeText(getContext(), "Mola süresi başlıyor.", Toast.LENGTH_SHORT).show();
                     MediaPlayer pomodroalarm = MediaPlayer.create(getActivity(), R.raw.pomodroalert);
                     pomodroalarm.start();
-                    countDownTimer = new CountDownTimer(calismasuresi*1000,1000) {
-                        @Override
-                        public void onTick(long millisUntilFinished) {
-                            kalanSure = millisUntilFinished;
-                            long dakika = ((millisUntilFinished /1000) % 3600) / 60;
-                            long saniye = (millisUntilFinished / 1000) % 60;
-                            String sureFor = String.format(Locale.getDefault(),"%02d:%02d", dakika,saniye);
-                            suretext.setText(sureFor);
-                            baslat.setText("Durdur");
-                        }
-
-                        @Override
-                        public void onFinish() {
-                            suretext.setText("00:00");
-                            baslat.setText(R.string.baslat);
-                            Toast.makeText(getContext(), "Mola süresi tamamlandı.", Toast.LENGTH_SHORT).show();
-                            pomodroalarm.start();
-                            sureBaslat();
-                        }
-                    }.start();
+                    calismaSuresi();
                 }
 
             }.start();
 
-        } else {
-            baslat.setText(R.string.baslat);
+        }
+        else if (baslat.getText().equals("Başlat!")) {
+            durdurButon();
+        }
+        else {
             timerTemizle();
+            Toast.makeText(getContext(), "Süre durduruldu.", Toast.LENGTH_SHORT).show();
+            baslat.setText("Başlat!");
         }
 
 
     }
 
+    public void calismaSuresi(){
+        countDownTimer = new CountDownTimer(calismasuresi*1000,1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                kalanSure = millisUntilFinished;
+                long dakika = ((millisUntilFinished /1000) % 3600) / 60;
+                long saniye = (millisUntilFinished / 1000) % 60;
+                String sureFor = String.format(Locale.getDefault(),"%02d:%02d", dakika,saniye);
+                suretext.setText(sureFor);
+                baslat.setText("Durdur");
+            }
 
+            @Override
+            public void onFinish() {
+                suretext.setText("00:00");
+                baslat.setText(R.string.baslat);
+                Toast.makeText(getContext(), "Mola süresi tamamlandı.", Toast.LENGTH_SHORT).show();
+                MediaPlayer pomodroalarm = MediaPlayer.create(getActivity(), R.raw.pomodroalert);
+                pomodroalarm.start();
+                sureBaslat();
+            }
+        }.start();
+    }
+
+    public void durdurButon(){
+        if (baslat.getText().equals("Başlat!")){
+            Toast.makeText(getContext(), "Tekrardan iyi çalışmalar <3", Toast.LENGTH_SHORT).show();
+            countDownTimer = new CountDownTimer(kalanSure*1,1000) {
+                @Override
+                public void onTick(long millisUntilFinished) {
+                    kalanSure = millisUntilFinished;
+                    long dakika = ((millisUntilFinished /1000) % 3600) / 60;
+                    long saniye = (millisUntilFinished / 1000) % 60;
+                    String sureFor = String.format(Locale.getDefault(),"%02d:%02d", dakika,saniye);
+                    suretext.setText(sureFor);
+                    baslat.setText("Durdur");
+                }
+
+                @Override
+                public void onFinish() {
+                    calismaSuresi();
+                }
+            }.start();
+        }
+        else {
+            timerTemizle();
+            baslat.setText("Başlat!");
+        }
+    }
 
     public void resetleButon(){
         timerTemizle();

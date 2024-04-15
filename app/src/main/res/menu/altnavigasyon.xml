@@ -14,7 +14,7 @@
         android:icon="@drawable/baseline_notes_24" />
 
     <item android:id="@+id/takvim"
-        android:title="@string/takvim"
+        android:title="To-Doo"
         android:icon="@drawable/baseline_calendar_month_24" />
 
 </menu>

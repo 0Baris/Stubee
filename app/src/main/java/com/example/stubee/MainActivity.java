@@ -91,8 +91,7 @@ public class MainActivity extends AppCompatActivity {
                     FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                     fragmentTransaction.replace(R.id.framelayout, new TakvimFragment());
                     fragmentTransaction.commit();
-
-                    toolbar.setTitle("Takvim");
+                    toolbar.setTitle("To-Doo");
                     toolbar.setNavigationIcon(R.drawable.takvim_renk);
                 }
 
