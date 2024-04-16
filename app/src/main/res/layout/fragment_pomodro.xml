@@ -64,7 +64,7 @@
             android:layout_height="50dp"
             android:layout_marginVertical="400dp"
             android:layout_marginHorizontal="220dp"
-            android:text="Resetle"
+            android:text="Temizle"
             android:textColor="@color/white"
             android:textStyle="bold"
             />

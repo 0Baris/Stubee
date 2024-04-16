@@ -2,7 +2,6 @@ package com.example.stubee;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,8 +11,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
-import java.nio.file.NotLinkException;
 
 import me.ibrahimsn.lib.OnItemSelectedListener;
 import me.ibrahimsn.lib.SmoothBottomBar;
@@ -89,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
                     FragmentManager fragmentManager = getSupportFragmentManager();
                     FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                    fragmentTransaction.replace(R.id.framelayout, new TakvimFragment());
+                    fragmentTransaction.replace(R.id.framelayout, new ToDooFragment());
                     fragmentTransaction.commit();
                     toolbar.setTitle("To-Doo");
                     toolbar.setNavigationIcon(R.drawable.takvim_renk);

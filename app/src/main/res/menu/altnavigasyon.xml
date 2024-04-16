@@ -13,7 +13,7 @@
         android:title="@string/notlar"
         android:icon="@drawable/baseline_notes_24" />
 
-    <item android:id="@+id/takvim"
+    <item android:id="@+id/todoo"
         android:title="To-Doo"
         android:icon="@drawable/baseline_calendar_month_24" />
 
