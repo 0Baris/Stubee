@@ -1,5 +1,4 @@
 package com.example.stubee;
-
 import android.annotation.SuppressLint;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -11,7 +10,6 @@ import android.widget.Button;
 import androidx.fragment.app.Fragment;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.example.stubee.R.id;
 import java.util.Locale;
 
 public class PomodroFragment extends Fragment {
@@ -29,8 +27,8 @@ public class PomodroFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_pomodro, container, false);
 
         suretext = view.findViewById(R.id.suretext);
-        baslat = view.findViewById(id.pbaslat);
-        resetle = view.findViewById(id.resetlebutton);
+        baslat = view.findViewById(R.id.pbaslat);
+        resetle = view.findViewById(R.id.resetlebutton);
 
         baslat.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,7 +61,7 @@ public class PomodroFragment extends Fragment {
                     long saniye = (millisUntilFinished / 1000) % 60;
                     String sureFor = String.format(Locale.getDefault(),"%02d:%02d", dakika,saniye);
                     suretext.setText(sureFor);
-                    baslat.setText("Durdur");
+                    baslat.setText(R.string.durdur);
                 }
 
                 @Override
@@ -86,7 +84,7 @@ public class PomodroFragment extends Fragment {
         else {
             timerTemizle();
             Toast.makeText(getContext(), "Süre durduruldu.", Toast.LENGTH_SHORT).show();
-            baslat.setText("Başlat!");
+            baslat.setText(R.string.ba_lat);
         }
 
 
@@ -101,9 +99,10 @@ public class PomodroFragment extends Fragment {
                 long saniye = (millisUntilFinished / 1000) % 60;
                 String sureFor = String.format(Locale.getDefault(),"%02d:%02d", dakika,saniye);
                 suretext.setText(sureFor);
-                baslat.setText("Durdur");
+                baslat.setText(R.string.durdur);
             }
 
+            @SuppressLint("SetTextI18n")
             @Override
             public void onFinish() {
                 suretext.setText("00:00");
@@ -119,7 +118,7 @@ public class PomodroFragment extends Fragment {
     public void durdurButon(){
         if (baslat.getText().equals("Başlat!")){
             Toast.makeText(getContext(), "Tekrardan iyi çalışmalar <3", Toast.LENGTH_SHORT).show();
-            countDownTimer = new CountDownTimer(kalanSure*1,1000) {
+            countDownTimer = new CountDownTimer(kalanSure,1000) {
                 @Override
                 public void onTick(long millisUntilFinished) {
                     kalanSure = millisUntilFinished;
@@ -127,7 +126,7 @@ public class PomodroFragment extends Fragment {
                     long saniye = (millisUntilFinished / 1000) % 60;
                     String sureFor = String.format(Locale.getDefault(),"%02d:%02d", dakika,saniye);
                     suretext.setText(sureFor);
-                    baslat.setText("Durdur");
+                    baslat.setText(R.string.durdur);
                 }
 
                 @Override
@@ -142,6 +141,7 @@ public class PomodroFragment extends Fragment {
         }
     }
 
+    @SuppressLint("SetTextI18n")
     public void resetleButon(){
         timerTemizle();
         suretext.setText("00:00");
