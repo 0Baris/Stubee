@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                     fragmentTransaction.replace(R.id.framelayout, new ToDooFragment());
                     fragmentTransaction.commit();
                     toolbar.setTitle("To-Doo");
-                    toolbar.setNavigationIcon(R.drawable.to_doo);
+                    toolbar.setNavigationIcon(R.drawable.takvim_renk);
                 }
 
                 return false;
