@@ -17,4 +17,6 @@
     <string name="düsük">Düşük</string>
     <string name="kapat">Kapat</string>
     <string name="kaydet">Kaydet</string>
+    <string name="todoo_tarih">Tarih Seç</string>
+    <string name="secilen_tarih">"Seçilen Tarih: "</string>
 </resources>
