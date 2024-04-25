@@ -30,11 +30,14 @@
             android:id="@+id/todoo_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginHorizontal="300dp"
-            android:layout_marginBottom="34dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
             android:backgroundTint="#C36C00"
             android:contentDescription="@string/todo"
+            android:src="@drawable/checklist_svgrepo_com"
             app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MaterialAlertDialog.Material3">
 
         </com.google.android.material.floatingactionbutton.FloatingActionButton>

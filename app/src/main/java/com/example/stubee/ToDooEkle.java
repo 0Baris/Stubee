@@ -19,13 +19,6 @@ import android.widget.TextView;
 
 public class ToDooEkle extends Fragment {
 
-    Calendar gününtakvimi = Calendar.getInstance();
-    private int takYıl = gününtakvimi.get(Calendar.YEAR);
-    private int takAy = gününtakvimi.get(Calendar.MONTH);
-    private int takGun = gününtakvimi.get(Calendar.DAY_OF_MONTH);
-    CardView todoo_cardview;
-    TextView tarihyazi;
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

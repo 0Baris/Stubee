@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="start"
-            android:hint="Görev Ekle!"
+            android:hint="@string/gorevekle"
             tools:ignore="MissingConstraints"
             >
         </EditText>
@@ -32,7 +32,7 @@
             android:layout_marginVertical="50dp"
             android:layout_gravity="center_horizontal"
             android:text=""
-            android:textSize="35dp"
+            android:textSize="35sp"
             android:textColor="#C26C00"
             >
         </TextView>
@@ -59,7 +59,7 @@
             android:layout_marginStart="130dp"
             android:layout_marginTop="68dp"
             android:background="@drawable/savebutton"
-            tools:ignore="HardcodedText"
+            tools:ignore="HardcodedText,RtlHardcoded"
             >
 
         </androidx.appcompat.widget.AppCompatButton>

@@ -5,7 +5,10 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PomodroFragment">
+    tools:context=".PomodroFragment"
+    android:layout_marginTop="65dp"
+    android:layout_marginBottom="60dp"
+    >
 
 
 
@@ -13,8 +16,6 @@
         android:id="@+id/pomodro_sekme"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="65dp"
-        android:layout_marginBottom="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,8 +52,8 @@
             android:id="@+id/pbaslat"
             android:layout_width="100dp"
             android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
             android:layout_marginVertical="400dp"
-            android:layout_marginHorizontal="80dp"
             android:text="Başlat"
             android:textColor="@color/white"
             android:textStyle="bold"
@@ -62,8 +63,8 @@
             android:id="@+id/resetlebutton"
             android:layout_width="100dp"
             android:layout_height="50dp"
-            android:layout_marginVertical="400dp"
-            android:layout_marginHorizontal="220dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="460dp"
             android:text="Temizle"
             android:textColor="@color/white"
             android:textStyle="bold"

@@ -22,6 +22,7 @@ public class ToDooFragment extends Fragment {
 
     FloatingActionButton todoo_button;
     CardView todoo_cardview;
+    CardView toodo_gorevler;
     TextView tarihyazi;
     boolean todoo_durum = false;
     Calendar gününtakvimi = Calendar.getInstance();
@@ -29,11 +30,12 @@ public class ToDooFragment extends Fragment {
     private int takAy = gününtakvimi.get(Calendar.MONTH);
     private int takGun = gününtakvimi.get(Calendar.DAY_OF_MONTH);
 
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view3 = inflater.inflate(R.layout.fragment_todoo, container, false);
         View view4 = inflater.inflate(R.layout.fragment_todooekle, container, false);
-
+        View view5 = inflater.inflate(R.layout.fragment_todoo_gorevler, container, false);
 
         todoo_button = view3.findViewById(R.id.todoo_button);
         todoo_cardview = view4.findViewById(R.id.todoo_cardview);

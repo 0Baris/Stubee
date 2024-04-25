@@ -9,7 +9,7 @@
         <!-- Customize your light theme here. -->
         <item name="colorSecondary">#C82D18</item>
         <item name="colorSecondaryVariant">#9F1031</item>
-        <item name="colorOnSecondary">#3B0AAD</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
         <!-- Customize your light theme here. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <item name="android:navigationBarColor">#B07F02</item>
