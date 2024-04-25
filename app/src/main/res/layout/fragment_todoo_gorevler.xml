@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="12dp"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="15dp"
+    android:id="@+id/todoo_gorevler"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        >
+
+        <CheckBox
+            android:id="@+id/todoo_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#C36C00"
+            android:paddingStart="8dp"
+            android:text="Deneme"
+            tools:ignore="MissingConstraints"
+            >
+
+        </CheckBox>
+
+        <TextView
+            android:id="@+id/todoo_viewtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23.01.2004"
+            android:gravity="end|right"
+            app:layout_constraintTop_toBottomOf="@+id/todoo_checkbox"
+            app:layout_constraintBottom_toBottomOf="@+id/todoo_checkbox"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+        </TextView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
