@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="350dp"
     android:layout_height="200dp"
-
     >
 
     <androidx.cardview.widget.CardView
@@ -77,4 +76,5 @@
         </androidx.appcompat.widget.AppCompatButton>
 
     </androidx.cardview.widget.CardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

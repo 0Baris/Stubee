@@ -64,10 +64,10 @@ public class MainActivity extends AppCompatActivity {
 
                     FragmentManager fragmentManager = getSupportFragmentManager();
                     FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                    fragmentTransaction.replace(R.id.framelayout, new PomodroFragment());
+                    fragmentTransaction.replace(R.id.framelayout, new PomodoroFragment());
                     fragmentTransaction.commit();
 
-                    toolbar.setTitle("Pomodro");
+                    toolbar.setTitle("Pomodoro");
                     toolbar.setNavigationIcon(R.drawable.pomodro_renk);
 
                 }

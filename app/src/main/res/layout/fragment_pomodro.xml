@@ -5,7 +5,7 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PomodroFragment"
+    tools:context=".PomodoroFragment"
     android:layout_marginTop="65dp"
     android:layout_marginBottom="60dp"
     >
@@ -13,7 +13,7 @@
 
 
     <RelativeLayout
-        android:id="@+id/pomodro_sekme"
+        android:id="@+id/pomodoro_sekme"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
