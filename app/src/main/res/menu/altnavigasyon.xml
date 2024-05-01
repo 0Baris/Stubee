@@ -6,7 +6,7 @@
         android:icon="@drawable/anasayfa_renk" />
 
     <item android:id="@+id/pomodro"
-        android:title="@string/pomodro"
+        android:title="Pomodoro"
         android:icon="@drawable/baseline_timer_24" />
 
     <item android:id="@+id/notlar"

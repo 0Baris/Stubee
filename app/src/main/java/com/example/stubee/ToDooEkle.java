@@ -1,33 +1,29 @@
 package com.example.stubee;
 
-import android.annotation.SuppressLint;
-import android.app.DatePickerDialog;
-import android.icu.util.Calendar;
 import android.os.Bundle;
-
-import androidx.appcompat.widget.AppCompatButton;
-import androidx.cardview.widget.CardView;
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.DatePicker;
-import android.widget.PopupWindow;
+import android.widget.EditText;
 import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
+public class ToDooEkle extends AppCompatActivity {
 
-public class ToDooEkle extends Fragment {
+    EditText gorev_text;
+    TextView gorev_tarih;
+    AppCompatButton gorev_button;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View view4 = inflater.inflate(R.layout.fragment_todooekle, container, false);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.fragment_todooekle);
+        LayoutInflater layoutInflater = LayoutInflater.from(getApplicationContext());
+        View popupView = layoutInflater.inflate(R.layout.fragment_todooekle, null);
 
+        gorev_text = findViewById(R.id.todoo_edittext);
+        gorev_tarih = findViewById(R.id.todoo_tarihtext);
+        gorev_button = popupView.findViewById(R.id.todoo_kaydetbutton);
 
-
-        return inflater.inflate(R.layout.fragment_todooekle, container, false);
     }
-
-
 }
