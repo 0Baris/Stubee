@@ -9,51 +9,26 @@
     tools:context=".MainActivity">
 
 
-    <RelativeLayout
-        android:id="@+id/framelayout"
+    <com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="65dp"
-        android:layout_marginBottom="55dp"
-        android:background="@drawable/stubee_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:navigationDrawerBackgroundColor="#C36C00"
+        app:appbarTitleTextColor="@android:color/white"
+        app:HamMenuIconTintColor="@android:color/white"
+        app:appbarColor="#C36C00"
+        app:primaryMenuItemTextColor="@android:color/white"
+        app:secondaryMenuItemTextColor="@android:color/white"
+        app:appbarTitleTextSize="7sp"
+        app:primaryMenuItemTextSize="7sp"
+        app:secondaryMenuItemTextSize="7sp"
+        android:id="@+id/navigationDrawer">
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:background="@drawable/stubee_background_optimized"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
-    </RelativeLayout>
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:background="#C46C00"
-        app:layout_constraintEnd_toEndOf="@id/framelayout"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:navigationIcon="@drawable/anasayfa_renk"
-        app:title="@string/app_name"
-        app:titleTextColor="@color/white"
-        tools:titleTextAppearance="@style/TextAppearance.AppCompat.Large">
-
-    </androidx.appcompat.widget.Toolbar>
-
-    <me.ibrahimsn.lib.SmoothBottomBar
-        android:id="@+id/altnavi"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:fadingEdge="vertical"
-        app:backgroundColor="#C46C00"
-        app:cornerRadius="10dp"
-        app:corners="top_right|top_left"
-        app:indicatorColor="#925100"
-        app:indicatorRadius="8dp"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/altnavigasyon" />
+    </com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer>
 
 
 

@@ -1,25 +1,34 @@
 package com.example.stubee;
 
+import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
-
-import me.ibrahimsn.lib.OnItemSelectedListener;
-import me.ibrahimsn.lib.SmoothBottomBar;
+import androidx.fragment.app.Fragment;
+import com.shrikanthravi.customnavigationdrawer2.data.MenuItem;
+import com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    /*
     SmoothBottomBar smoothBottomBar;
     Toolbar toolbar;
 
+     */
+
+    SNavigationDrawer sNavigationDrawer;
+    Class aClass;
+
+
+
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,69 +40,84 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        smoothBottomBar = findViewById(R.id.altnavi);
-        toolbar = findViewById(R.id.toolbar);
+        sNavigationDrawer = findViewById(R.id.navigationDrawer);
+
+        List<MenuItem> itemList = new ArrayList<>();
+
+        itemList.add(new MenuItem("Ana Sayfa", R.drawable.anasayfa_bg));
+        itemList.add(new MenuItem("Pomodoro", R.drawable.pomodro_bg));
+        itemList.add(new MenuItem("Notlar", R.drawable.notlar_bg));
+        itemList.add(new MenuItem("To-Doo", R.drawable.todoo_bg));
+
+        sNavigationDrawer.setMenuItemList(itemList);
+        sNavigationDrawer.setAppbarTitleTV("Ana Sayfa");
+
+        aClass = AnasayfaFragment.class;
+
+        openFragment();
+
+        sNavigationDrawer.setOnMenuItemClickListener(new SNavigationDrawer.OnMenuItemClickListener() {
+            @Override
+            public void onMenuItemClicked(int position) {
+                switch (position){
+                    case 0:
+                        aClass = AnasayfaFragment.class;
+                        break;
+                    case 1:
+                        aClass = PomodoroFragment.class;
+                        break;
+                    case 2:
+                        aClass = NotlarFragment.class;
+                        break;
+                    case 3:
+                        aClass = ToDooFragment.class;
+                        break;
+                }
+            }
+        });
+
+        sNavigationDrawer.setDrawerListener(new SNavigationDrawer.DrawerListener() {
+            @Override
+            public void onDrawerOpening() {
+
+            }
+
+            @Override
+            public void onDrawerClosing() {
+                openFragment();
+            }
+
+            @Override
+            public void onDrawerOpened() {
+
+            }
+
+            @Override
+            public void onDrawerClosed() {
+
+            }
+
+            @Override
+            public void onDrawerStateChanged(int newState) {
+
+            }
+        });
 
         getWindow().setNavigationBarColor(Color.parseColor("#C46C00"));
         getWindow().setStatusBarColor(Color.parseColor("#C46C00"));
-        toolbar.setTitle("Ana Sayfa");
 
+    }
 
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.framelayout, new AnasayfaFragment());
-        fragmentTransaction.commit();
-
-        smoothBottomBar.setOnItemSelectedListener(new OnItemSelectedListener() {
-            @Override
-            public boolean onItemSelect(int i) {
-
-                if (i==0){
-
-                    FragmentManager fragmentManager = getSupportFragmentManager();
-                    FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                    fragmentTransaction.replace(R.id.framelayout, new AnasayfaFragment());
-                    fragmentTransaction.commit();
-
-                    toolbar.setTitle("Ana Sayfa");
-                    toolbar.setNavigationIcon(R.drawable.anasayfa_renk);
-
-
-                }
-                else if (i==1){
-
-                    FragmentManager fragmentManager = getSupportFragmentManager();
-                    FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                    fragmentTransaction.replace(R.id.framelayout, new PomodoroFragment());
-                    fragmentTransaction.commit();
-
-                    toolbar.setTitle("Pomodoro");
-                    toolbar.setNavigationIcon(R.drawable.pomodro_renk);
-
-                }
-                else if (i==2){
-
-                    FragmentManager fragmentManager = getSupportFragmentManager();
-                    FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                    fragmentTransaction.replace(R.id.framelayout, new NotlarFragment());
-                    fragmentTransaction.commit();
-
-                    toolbar.setTitle("Notlar");
-                    toolbar.setNavigationIcon(R.drawable.sorutakip_renk);
-
-                }
-                else if (i==3){
-
-                    FragmentManager fragmentManager = getSupportFragmentManager();
-                    FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                    fragmentTransaction.replace(R.id.framelayout, new ToDooFragment());
-                    fragmentTransaction.commit();
-                    toolbar.setTitle("To-Doo");
-                    toolbar.setNavigationIcon(R.drawable.to_doo);
-                }
-
-                return false;
-            }
-        });
+    private void openFragment() {
+        try {
+            Fragment fragment = (Fragment) aClass.newInstance();
+            getSupportFragmentManager().
+                    beginTransaction().
+                    setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out).
+                    replace(R.id.frameLayout,fragment).
+                    commit();
+        } catch (IllegalAccessException | InstantiationException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

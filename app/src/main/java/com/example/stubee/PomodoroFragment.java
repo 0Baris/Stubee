@@ -154,8 +154,4 @@ public class PomodoroFragment extends Fragment {
             countDownTimer.cancel();
         }
     }
-
-
-
-
 }
