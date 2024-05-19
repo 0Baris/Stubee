@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_3a" />
+        <device id="_device_class_phone" />
+        <device id="_device_class_foldable" />
+        <device id="pixel_7" />
+        <device id="pixel_3" />
+      </config>
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/font/lobster.xml">
+        <config>
+          <theme>@style/Theme.Stubee</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.Stubee</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_anasayfa.xml">
+        <config>
+          <theme>@style/Theme.Stubee</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_not_ekle.xml">
+        <config>
+          <theme>@style/Theme.Stubee</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_notduzenle.xml">
+        <config>
+          <theme>@style/Theme.Stubee</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_notlar.xml">
+        <config>
+          <theme>@style/Theme.Stubee</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_pomodro.xml">
+        <config>
+          <theme>@style/Theme.Stubee</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_splash_screen.xml">
+        <config>
+          <theme>@style/Theme.Stubee</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_todoo.xml">
+        <config>
+          <theme>@style/Theme.Stubee</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_todoo_gorev.xml">
+        <config>
+          <theme>@style/Theme.Stubee</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_todooekle.xml">
+        <config>
+          <theme>@style/Theme.Stubee</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/not_row.xml">
+        <config>
+          <theme>@style/Theme.Stubee</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/navigation/notlar_navigasyon.xml">
+        <config>
+          <theme>@style/Theme.Stubee</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8ce6a52-59f0-4c8e-ae98-552208aa6c1a" name="Changes" comment="Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/Stubee.app.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/render.experimental.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/studiobot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/stubee/SplashScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/animasyon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/animasyonn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/animasyonsplash.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/animasyonsplashbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/arkaplan.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/backgroundstubee.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_delete_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/edittext_shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ekle_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ekle_icon2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/onaytiki_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pomodor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pomodorobreak2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pomodorocalisma2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pomodorotimer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/saveicon2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sil_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/stubee2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_not_ekle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notduzenle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_splash_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/not_row.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/stubee/AnasayfaFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/stubee/AnasayfaFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/stubee/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/stubee/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/stubee/NotlarFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/stubee/PomodoroFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/stubee/PomodoroFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/stubee/StubeeVeritabani.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/stubee/ToDooAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/stubee/ToDooEkle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/stubee/ToDooFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_anasayfa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_anasayfa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notlar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notlar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pomodro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pomodro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_todoo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_todoo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_todoo_gorev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_todoo_gorev.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_todooekle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_todooekle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Cem\.android\avd\Copy_of_Copy_of_Pixel_3a_API_34_extension_level_7_x86_64.avd)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;0Baris&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="00f49454-5bb3-4238-8b86-2d6cc03d8c45" />
+        <option name="url" value="https://github.com/0Baris/Stubee" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///snippet.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///snippet.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///snippet.kts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///snippet.kts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///snippet.kts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///snippet.kts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///snippet.kts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-34/android/os/CountDownTimer.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-34/android/widget/CompoundButton.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2eshWYjtmb0wvVdD7yo4iIGthTr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "AnalyzeApkAction.lastApkPath": "C:/Users/Cem/AndroidStudioProjects/Stubee/app/build/intermediates/apk/debug/app-debug.apk",
+    "Android App.app.executor": "Run",
+    "PROJECT_TRUSTED_KEY": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ScreenRecorder.SavePath": "C:\\Users\\Cem\\Desktop",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Cem/Desktop",
+    "project.structure.last.edited": "Suggestions",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
+  }
+}]]></component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Cem\AndroidStudioProjects\Stubee\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.-139974578">
+      <recent name="com.example.stubee" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Cem\AndroidStudioProjects\Stubee\app\src\main\res\drawable" />
+      <recent name="C:\Users\Cem\AndroidStudioProjects\Stubee\app\src\main\res\raw" />
+      <recent name="C:\Users\Cem\AndroidStudioProjects\Stubee\app\src\main\res\font" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="Stubee.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All Tests" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="Stubee.app" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_NAME_REGEX" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="RETENTION_ENABLED" value="No" />
+      <option name="RETENTION_MAX_SNAPSHOTS" value="2" />
+      <option name="RETENTION_COMPRESS_SNAPSHOTS" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android Instrumented Tests.All Tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8ce6a52-59f0-4c8e-ae98-552208aa6c1a" name="Changes" comment="" />
+      <created>1712699225126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712699225126</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First Version - Only Test">
+      <option name="closed" value="true" />
+      <created>1712702896701</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712702896701</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Version - Only Test&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1712702977139</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712702977139</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First Version - Only Test&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1712703733194</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712703733194</updated>
+    </task>
+    <task id="LOCAL-00004" summary="First Version - Only Test&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1712704027571</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712704027571</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First Version - Only Test&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1712704138973</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712704138973</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Toolbar Changed to Icons and Texts&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1712751674056</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712751674056</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Pomodro Timer and Background Changed&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1712834933527</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712834933527</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Pomodro Timer and Background Changed&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1713042810701</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713042810701</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Pomodro Timer and Background Changed&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1713139245746</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713139245746</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Pomodro Demo Version&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1713192837825</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713192837825</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Pomodro Full Version&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1713221069204</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713221069204</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Pomodro Optimized&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1713227739129</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713227739129</updated>
+    </task>
+    <task id="LOCAL-00013" summary="To-Doo UI Design&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1713318054764</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713318054764</updated>
+    </task>
+    <task id="LOCAL-00014" summary="To-Doo UI Design&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1713655676973</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713655676973</updated>
+    </task>
+    <task id="LOCAL-00015" summary="To-Doo Pop-Up Design&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1713895179119</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1713895179119</updated>
+    </task>
+    <task id="LOCAL-00016" summary="To-Doo Pop-Up Images&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1714079996807</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714079996807</updated>
+    </task>
+    <task id="LOCAL-00017" summary="To-Doo Pop-Up Front-End Finished&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1714088401542</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714088401542</updated>
+    </task>
+    <task id="LOCAL-00018" summary="To-Doo Pop-Up Front-End Finished&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1714088475863</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1714088475863</updated>
+    </task>
+    <task id="LOCAL-00019" summary="To-Doo Database Connection&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1714176977425</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1714176977425</updated>
+    </task>
+    <task id="LOCAL-00020" summary="To-Doo Demo Version --Update&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1714599640921</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1714599640921</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Application Major Changes (Navigation Drawer,Background and Optimizing Some Images)&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1714689960001</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1714689960001</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Application Major Changes (Navigation Drawer,Background and Optimizing Some Images)&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;">
+      <option name="closed" value="true" />
+      <created>1714772644768</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1714772644768</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Version - Only Test" />
+    <MESSAGE value="First Version - Only Test&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;" />
+    <MESSAGE value="Toolbar Changed to Icons and Texts&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;" />
+    <MESSAGE value="Pomodro Timer Changed&#10;&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;" />
+    <MESSAGE value="Pomodro Demo Version&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;" />
+    <MESSAGE value="Pomodro Full Version&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;" />
+    <MESSAGE value="Pomodro Optimized&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;" />
+    <MESSAGE value="To-Doo UI Design&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;" />
+    <MESSAGE value="To-Doo Pop-Up Design&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;" />
+    <MESSAGE value="To-Doo Pop-Up Images&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;" />
+    <MESSAGE value="To-Doo Pop-Up Front-End Finished&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;" />
+    <MESSAGE value="To-Doo Database Connection&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;" />
+    <MESSAGE value="To-Doo Demo Version --Update&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;" />
+    <MESSAGE value="Application Major Changes (Navigation Drawer,Background and Optimizing Some Images)&#10;&#10;Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;" />
+    <MESSAGE value="Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Signed-off-by: Barış Cem Ant &lt;baris.ant@ogr.gelisim.edu.tr&gt;" />
+  </component>
+</project>

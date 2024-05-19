@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/notlar_navigasyon"
+    app:startDestination="@id/notlarFragment">
+
+    <fragment
+        android:id="@+id/notlarFragment"
+        android:name="com.example.stubee.notlar.NotlarFragment"
+        android:label="Notlar"
+        tools:layout="@layout/fragment_notlar" >
+
+
+        <action
+            android:id="@+id/action_notlarFragment_to_notEkle"
+            app:destination="@id/notEkle"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+
+        <action
+            android:id="@+id/action_notlarFragment_to_notDuzenle"
+            app:destination="@id/notDuzenle"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/notEkle"
+        android:name="com.example.stubee.notlar.NotEkle"
+        android:label="Not Ekle"
+        tools:layout="@layout/fragment_not_ekle" >
+        <action
+            android:id="@+id/action_notEkle_to_notlarFragment"
+            app:destination="@id/notlarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notDuzenle"
+        android:name="com.example.stubee.notlar.NotDüzenle"
+        android:label="Not Düzenle"
+        tools:layout="@layout/fragment_notduzenle" >
+        <action
+            android:id="@+id/action_notDuzenle_to_notlarFragment"
+            app:destination="@id/notlarFragment" />
+    </fragment>
+</navigation>

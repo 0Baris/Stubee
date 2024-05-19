@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "682307410322",
+    "project_id": "stubee-56e4c",
+    "storage_bucket": "stubee-56e4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682307410322:android:df77962db25e311230894b",
+        "android_client_info": {
+          "package_name": "com.example.stubee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE3a99x9gkQEuyHu_CNpDdaSAES4n2_CA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

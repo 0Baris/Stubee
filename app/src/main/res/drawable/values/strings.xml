@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Stubee</string>
+    <string name="ana_sayfa">Ana Sayfa</string>
+    <string name="pomodro">Pomodro</string>
+    <string name="notlar">Notlar</string>
+    <string name="takvim">Takvim</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="baslat">Başlat</string>
+    <string name="yap_lacaklar">Yapılacaklar</string>
+    <string name="todo">TODO</string>
+    <string name="durdur">Durdur</string>
+    <string name="ba_lat">Başlat!</string>
+    <string name="yapilacak_is">Yapılacak işi buraya yazın.</string>
+    <string name="onem_oranı">Önem Oranı</string>
+    <string name="yuksek">Yüksek</string>
+    <string name="orta">Orta</string>
+    <string name="düsük">Düşük</string>
+    <string name="kapat">Kapat</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="todoo_tarih">Tarih Seç</string>
+    <string name="secilen_tarih">"Seçilen Tarih: "</string>
+    <string name="gorevekle">Görev Ekle!</string>
+</resources>
