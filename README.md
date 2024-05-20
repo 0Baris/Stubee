@@ -20,23 +20,23 @@ Stubee, verimliliği ve organizasyonu artırmak için tasarlanmış kapsamlı bi
 
 Açılış Ekranı
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/qt8aboo.gif)
+![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/mczmpc8.gif)
 
 Fragment Geçişleri 
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/oqlq7lc.gif)
+![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/40qghzn.gif)
 
 Notlar
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/jtvenz2.gif)
+![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/ek347o9.gif)
 
 Pomodoro
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/ta85ren.gif)
+![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/279qhe4.gif)
 
 To-Do
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/mvmkik3.gif)
+![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/kn04lin.gif)
 ## Kullanılan Teknolojiler
 
 **Yazılım Dili:** Java
