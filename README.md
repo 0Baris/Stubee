@@ -1,4 +1,4 @@
-
+konum
 # Stubee
 
 Stubee, verimliliği ve organizasyonu artırmak için tasarlanmış kapsamlı bir mobil uygulamadır. Uygulama, Pomodoro, Notlar ve To-Do olmak üzere üç özelliğe sahiptir. Bu özelliklerin her biri, kullanıcıların zamanlarını verimli bir şekilde yönetmelerine, görevlerini organize etmelerine ve not almalarına yardımcı olmak için özel olarak tasarlanmıştır.
@@ -22,13 +22,13 @@ Açılış Ekranı
 
 ![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/mczmpc8.gif)
 
-Fragment Geçişleri 
+Fragment Geçişleri
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/40qghzn.gif)
+![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/ek347o9.gif)
 
 Notlar
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/ek347o9.gif)
+![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/40qghzn.gif)
 
 Pomodoro
 
