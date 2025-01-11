@@ -1,11 +1,10 @@
-konum
 # Stubee
 
 Stubee, verimliliği ve organizasyonu artırmak için tasarlanmış kapsamlı bir mobil uygulamadır. Uygulama, Pomodoro, Notlar ve To-Do olmak üzere üç özelliğe sahiptir. Bu özelliklerin her biri, kullanıcıların zamanlarını verimli bir şekilde yönetmelerine, görevlerini organize etmelerine ve not almalarına yardımcı olmak için özel olarak tasarlanmıştır.
 
 
 
-![Logo](https://i.hizliresim.com/8vjavuy.png)
+![image](https://github.com/user-attachments/assets/57b8f3bd-6a12-46bd-93eb-7a43bd640903)
 
     
 ## Özellikler
@@ -20,23 +19,24 @@ Stubee, verimliliği ve organizasyonu artırmak için tasarlanmış kapsamlı bi
 
 Açılış Ekranı
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/mczmpc8.gif)
+![acilisi](https://github.com/user-attachments/assets/2718ca38-851a-4f67-ab1a-6a46d4b07e3c)
 
 Fragment Geçişleri
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/ek347o9.gif)
+![gecisler](https://github.com/user-attachments/assets/dbeccd6d-e71f-4f89-9d29-8e8186705352)
 
 Notlar
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/40qghzn.gif)
+![nootlar](https://github.com/user-attachments/assets/35ae11ec-505e-4a15-b046-24206680af02)
 
 Pomodoro
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/279qhe4.gif)
+![pomodoroo](https://github.com/user-attachments/assets/ef1aa010-c203-4d89-b292-8753adc14442)
 
 To-Do
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/kn04lin.gif)
+![todooo](https://github.com/user-attachments/assets/67c55353-8687-4ba9-af31-4d8dfd782784)
+
 ## Kullanılan Teknolojiler
 
 **Yazılım Dili:** Java
